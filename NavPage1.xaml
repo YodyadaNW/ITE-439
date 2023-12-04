@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="IT_2113110189.NavPage1"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Page 1">
+
+    <StackLayout Padding="20" BackgroundColor="Beige">
+
+        <Button x:Name="OpenPage2" Text="Open NavPage 2" />
+        <Button x:Name="OpenPage3" Text="Open NavPage 3" />
+
+        <Button x:Name="openTabPage" Text="TabPage"/>
+
+    </StackLayout>
+
+</ContentPage>

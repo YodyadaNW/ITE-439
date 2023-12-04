@@ -20,3 +20,9 @@ C:\Users\classroom\source\repos\2113110189\IT_2113110189\IT_2113110189\IT_211311
 C:\Users\classroom\source\repos\2113110189\IT_2113110189\IT_2113110189\IT_2113110189\obj\Debug\netstandard2.0\Week4_B.xaml.g.cs
 C:\Users\classroom\source\repos\2113110189\IT_2113110189\IT_2113110189\IT_2113110189\obj\Debug\netstandard2.0\Week4_C.xaml.g.cs
 C:\Users\classroom\source\repos\2113110189\IT_2113110189\IT_2113110189\IT_2113110189\obj\Debug\netstandard2.0\Week4_Event.xaml.g.cs
+C:\Users\classroom\source\repos\2113110189\IT_2113110189\IT_2113110189\IT_2113110189\obj\Debug\netstandard2.0\NavPage1.xaml.g.cs
+C:\Users\classroom\source\repos\2113110189\IT_2113110189\IT_2113110189\IT_2113110189\obj\Debug\netstandard2.0\NavPage2.xaml.g.cs
+C:\Users\classroom\source\repos\2113110189\IT_2113110189\IT_2113110189\IT_2113110189\obj\Debug\netstandard2.0\NavPage3.xaml.g.cs
+C:\Users\classroom\source\repos\2113110189\IT_2113110189\IT_2113110189\IT_2113110189\obj\Debug\netstandard2.0\tabPage1.xaml.g.cs
+C:\Users\classroom\source\repos\2113110189\IT_2113110189\IT_2113110189\IT_2113110189\obj\Debug\netstandard2.0\tabPage2.xaml.g.cs
+C:\Users\classroom\source\repos\2113110189\IT_2113110189\IT_2113110189\IT_2113110189\obj\Debug\netstandard2.0\tabPage3.xaml.g.cs
