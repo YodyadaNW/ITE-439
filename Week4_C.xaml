@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="IT_2113110189.Week4_C"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Grid BackgroundColor="WhiteSmoke">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <!--  RowDefinition Height="auto" จะไปดึงความกว้างของกล่องที่กำหนดไว้มาใช้งาน  -->
+        </Grid.RowDefinitions>
+        <!--  end row  -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <!--  end column  -->
+
+        <BoxView
+            Grid.Row="1"
+            Grid.RowSpan="2"
+            Grid.Column="2"
+            Color="PeachPuff" />
+        <BoxView
+            Grid.Row="2"
+            Grid.Column="1"
+            Color="RosyBrown" />
+        <BoxView
+            Grid.Row="0"
+            Grid.Column="1"
+            Grid.ColumnSpan="2"
+            HeightRequest="50"
+            Color="BurlyWood" />
+        <BoxView
+            Grid.Row="0"
+            Grid.RowSpan="3"
+            Grid.Column="0"
+            Color="LightGray" />
+
+    </Grid>
+
+</ContentPage>

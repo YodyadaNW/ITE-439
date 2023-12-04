@@ -1,0 +1,115 @@
+﻿<ContentPage
+    x:Class="IT_2113110189.Week3_1"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ScrollView>
+        <!--  ทำให้เลื่อนดูได้  -->
+
+        <StackLayout Padding="20" BackgroundColor="LightSteelBlue">
+            <Label
+                x:Name="hiShowLabel"
+                Padding="20"
+                BackgroundColor="WhiteSmoke"
+                HorizontalTextAlignment="Center"
+                Text="Hello!" />
+
+            <Entry Keyboard="Default" Placeholder="Nickname" />
+
+            <Frame Padding="0" CornerRadius="50">
+                <Button BackgroundColor="White" Text="send" />
+            </Frame>
+
+            <!--  เนื้อหา week3  -->
+
+            <Picker x:Name="genderPicker" Title="Choose Gender">
+                <Picker.Items>
+                    <x:String>Male</x:String>
+                    <x:String>Female</x:String>
+
+                </Picker.Items>
+            </Picker>
+            <!--  Drop down  -->
+
+            <Slider
+                x:Name="oldSlider"
+                Maximum="100"
+                Minimum="0"
+                Value="50" />
+            <!--  slide age / Value="50" ค่าเริ่มต้น 50  -->
+
+            <Stepper
+                x:Name="carStepper"
+                Increment="1"
+                Maximum="10"
+                Minimum="0"
+                Value="0" />
+            <!--  กดปุ่มบวก ลบ / Value="0" ค่าเริ่มต้น 0 / Increment="1" เพิ่มทีละ 1  -->
+
+            <Image Source="home200.png" WidthRequest="100" />
+
+            <SearchBar Placeholder="Search" />
+
+            <ProgressBar Progress="0.5" ProgressColor="WhiteSmoke" />
+            <!--  tab load แสดงว่าโหลดถึงไหนแล้ว  แบบเส้น  -->
+
+            <ActivityIndicator IsRunning="True" />
+            <!--  tab load แสดงว่าโหลดถึงไหนแล้ว  แบบวงกลม  -->
+
+            <Frame Padding="0" CornerRadius="20">
+                <!--  กล่องไว้ตกแต่ง  เป็นขอบมน เอาไว้ครอบวัตถุอื่นๆ  ครอบได้แค่ 1 object  ครอบหลาย object ไม่ได้  แก้โดยการใช้ StackLayout ครอบ  -->
+
+                <ScrollView Orientation="Horizontal">
+                    <StackLayout Orientation="Horizontal">
+                        <BoxView
+                            HeightRequest="50"
+                            WidthRequest="100"
+                            Color="LightBlue" />
+                        <BoxView
+                            HeightRequest="50"
+                            WidthRequest="100"
+                            Color="Beige" />
+                        <BoxView
+                            HeightRequest="50"
+                            WidthRequest="100"
+                            Color="Gainsboro" />
+                        <BoxView
+                            HeightRequest="50"
+                            WidthRequest="100"
+                            Color="PaleVioletRed" />
+                        <!--  กล่องไว้ตกแต่ง  เป็นขอบเหลี่ยม  -->
+                    </StackLayout>
+                </ScrollView>
+
+            </Frame>
+
+            <Editor HeightRequest="80" />
+            <!--  ไว้กรอกข้อมูล เช่น ที่อยู่  -->
+
+            <DatePicker />
+            <!--  Date วันที่  -->
+
+            <TimePicker />
+            <!--  Time  -->
+
+            <BoxView
+                HeightRequest="80"
+                WidthRequest="100"
+                Color="LightBlue" />
+            <BoxView
+                HeightRequest="80"
+                WidthRequest="100"
+                Color="Beige" />
+            <BoxView
+                HeightRequest="80"
+                WidthRequest="100"
+                Color="Gainsboro" />
+            <BoxView
+                HeightRequest="80"
+                WidthRequest="100"
+                Color="PaleVioletRed" />
+
+        </StackLayout>
+
+    </ScrollView>
+</ContentPage>

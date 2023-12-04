@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="IT_2113110189.EventPage1"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <StackLayout Margin="10" Spacing="15">
+            <Label
+            Text="Hello!"
+                x:Name="showLabel"
+            BackgroundColor="BurlyWood"
+            FontSize="28"
+            HeightRequest="100"
+            WidthRequest="200"
+            HorizontalOptions="Fill"
+            HorizontalTextAlignment="Center"
+            LineBreakMode="WordWrap"
+            VerticalTextAlignment="Center"/>
+
+            <Entry
+                Placeholder="Your Name"
+                    x:Name="fnameEntry"
+                Keyboard="Default"
+                PlaceholderColor="Gray" />
+
+            <Button
+                Text="Send"
+                    x:Name="sendButton"
+                BackgroundColor="PaleVioletRed"
+                HorizontalOptions="End" />
+
+            <Entry
+                Placeholder="Address"
+                    x:Name="addEntry"
+                Keyboard="Default"
+                PlaceholderColor="Gray" />
+
+            <Image Source="home200.png" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

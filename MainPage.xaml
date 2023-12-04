@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="IT_2113110189.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <StackLayout
+        Margin="10"
+        Orientation="Vertical"
+        Spacing="10">
+        <Label
+            BackgroundColor="BurlyWood"
+            FontSize="28"
+            HeightRequest="100"
+            HorizontalOptions="Fill"
+            HorizontalTextAlignment="Center"
+            LineBreakMode="WordWrap"
+            Text="Yodyada Lorem Ipsum is simply dummy text"
+            VerticalTextAlignment="Center"
+            WidthRequest="200" />
+
+        <Label
+            BackgroundColor="Gainsboro"
+            FontSize="28"
+            HeightRequest="100"
+            HorizontalOptions="Fill"
+            HorizontalTextAlignment="Center"
+            Text="Sooksangjun"
+            VerticalTextAlignment="Center"
+            WidthRequest="200" />
+
+        <Entry
+            Keyboard="Telephone"
+            Placeholder="Phone"
+            PlaceholderColor="CornflowerBlue" />
+
+        <Button
+            BackgroundColor="CadetBlue"
+            HorizontalOptions="End"
+            Text="Send" />
+
+    </StackLayout>
+
+    <!--  HorizontalTextAlignment="Center" บอกตำแหน่งของข้อความ  -->
+    <!--  HorizontalOptions="Center" ตำแน่งที่ object ตัวนี้ไปวางไว้  -->
+    <!--  VerticalTextAlignment="Center" บอกว่าข้อความจะชิดบน ชิดล่างหรือไว้ตรงกลาง  -->
+</ContentPage>

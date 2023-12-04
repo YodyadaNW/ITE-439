@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="IT_2113110189.Week4_Event"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <StackLayout BackgroundColor="Gray">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="130" />
+                <RowDefinition Height="130" />
+                <RowDefinition Height="130" />
+                <RowDefinition Height="130" />
+                <RowDefinition Height="130" />
+                <RowDefinition Height="130" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!--  Row 0  -->
+            <BoxView
+                Grid.Row="0"
+                Grid.Column="0"
+                Grid.ColumnSpan="4"
+                Margin="3"
+                Color="White" />
+
+            <!--  Row 1  -->
+            <Button
+                Grid.Row="1"
+                Grid.Column="0"
+                BackgroundColor="White"
+                FontSize="35"
+                Text="7" />
+            <Button
+                Grid.Row="1"
+                Grid.Column="1"
+                BackgroundColor="White"
+                FontSize="35"
+                Text="8" />
+            <Button
+                Grid.Row="1"
+                Grid.Column="2"
+                BackgroundColor="White"
+                FontSize="35"
+                Text="9" />
+            <Button
+                Grid.Row="1"
+                Grid.Column="3"
+                BackgroundColor="Beige"
+                FontSize="35"
+                Text="/" />
+
+            <!--  Row 2  -->
+            <Button
+                Grid.Row="2"
+                Grid.Column="0"
+                BackgroundColor="White"
+                FontSize="35"
+                Text="4" />
+            <Button
+                Grid.Row="2"
+                Grid.Column="1"
+                BackgroundColor="White"
+                FontSize="35"
+                Text="5" />
+            <Button
+                Grid.Row="2"
+                Grid.Column="2"
+                BackgroundColor="White"
+                FontSize="35"
+                Text="6" />
+            <Button
+                Grid.Row="2"
+                Grid.Column="3"
+                BackgroundColor="LightGreen"
+                FontSize="35"
+                Text="+" />
+
+            <!--  Row 3  -->
+            <Button
+                Grid.Row="3"
+                Grid.Column="0"
+                BackgroundColor="White"
+                FontSize="35"
+                Text="1" />
+            <Button
+                Grid.Row="3"
+                Grid.Column="1"
+                BackgroundColor="White"
+                FontSize="35"
+                Text="2" />
+            <Button
+                Grid.Row="3"
+                Grid.Column="2"
+                BackgroundColor="White"
+                FontSize="35"
+                Text="3" />
+            <Button
+                Grid.Row="3"
+                Grid.Column="3"
+                BackgroundColor="Orange"
+                FontSize="35"
+                Text="-" />
+
+            <!--  Row 4  -->
+            <Button
+                Grid.Row="4"
+                Grid.Column="0"
+                Grid.ColumnSpan="3"
+                BackgroundColor="White"
+                FontSize="35"
+                Text="0" />
+            <Button
+                Grid.Row="4"
+                Grid.Column="3"
+                BackgroundColor="ForestGreen"
+                FontSize="35"
+                Text="*" />
+
+            <!--  Row 5  -->
+            <Button
+                Grid.Row="5"
+                Grid.Column="0"
+                BackgroundColor="White"
+                FontSize="35"
+                Text="C" />
+            <Button
+                Grid.Row="5"
+                Grid.Column="1"
+                Grid.ColumnSpan="3"
+                BackgroundColor="LightPink"
+                FontSize="35"
+                Text="=" />
+
+        </Grid>
+    </StackLayout>
+</ContentPage>

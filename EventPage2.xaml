@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="IT_2113110189.EventPage2"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" 
+                     BackgroundColor="LightBlue" 
+                     Margin="20">
+            
+            <Image Source="home200.png" />
+
+            <Label Text="Login"
+                        x:Name="showLabel"
+                   HorizontalTextAlignment="Center" />
+
+            <StackLayout Margin="20">
+                <Entry Placeholder="Username" 
+                            x:Name="userEntry"
+                       BackgroundColor="White"/>
+                
+                <Entry Placeholder="Password" 
+                            x:Name="passEntry"
+                       BackgroundColor="White"/>
+                
+                <Button Text="Login" 
+                            x:Name="loginButton"
+                        BackgroundColor="Green"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

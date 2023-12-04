@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="IT_2113110189.Week4_A"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+
+    <ScrollView>
+        <StackLayout
+            BackgroundColor="Beige"
+            Orientation="Vertical"
+            Spacing="6">
+            <BoxView Color="Gray" />
+            <BoxView Color="Black" />
+            <BoxView Color="Brown" />
+
+            <ScrollView Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal">
+                    <BoxView WidthRequest="150" Color="Gray" />
+                    <BoxView WidthRequest="150" Color="Black" />
+                    <BoxView WidthRequest="150" Color="Brown" />
+                </StackLayout>
+            </ScrollView>
+
+            <Button
+                HorizontalOptions="Start"
+                Text="Button1"
+                WidthRequest="150" />
+            <Button
+                HorizontalOptions="Center"
+                Text="Button2"
+                WidthRequest="150" />
+            <Button
+                HorizontalOptions="End"
+                Text="Button3"
+                WidthRequest="150" />
+            <Button
+                HorizontalOptions="Fill"
+                Text="Button4"
+                WidthRequest="150" />
+            <!--  จะไม่แสดงผลความกว้าง 150 เพราะกำหนดเป็น Fill  -->
+
+            <Button
+                HorizontalOptions="Start"
+                Text="Button5"
+                VerticalOptions="StartAndExpand"
+                WidthRequest="150" />
+            <Button
+                HorizontalOptions="Center"
+                Text="Button6"
+                VerticalOptions="CenterAndExpand"
+                WidthRequest="150" />
+            <Button
+                HorizontalOptions="End"
+                Text="Button7"
+                VerticalOptions="EndAndExpand"
+                WidthRequest="150" />
+            <Button
+                HorizontalOptions="Fill"
+                Text="Button8"
+                VerticalOptions="FillAndExpand"
+                WidthRequest="150" />
+
+            <StackLayout Orientation="Horizontal">
+                <Button HorizontalOptions="FillAndExpand" Text="Button9" />
+                <Button HorizontalOptions="FillAndExpand" Text="Button10" />
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
