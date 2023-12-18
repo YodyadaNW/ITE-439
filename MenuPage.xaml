@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="IT_2113110189.MenuPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Menu">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="220" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+
+        <!--  Row 1  -->
+        <BoxView Grid.Row="0" Color="Teal" />
+        <StackLayout Padding="10" VerticalOptions="End">
+            <Image
+                BackgroundColor="Silver"
+                HeightRequest="100"
+                HorizontalOptions="End"
+                WidthRequest="100" />
+            <Label
+                HorizontalOptions="End"
+                Text="Yodyada Sooksangjun"
+                TextColor="White" />
+            <Label
+                HorizontalOptions="End"
+                Text="2113110189"
+                TextColor="White" />
+        </StackLayout>
+
+        <!--  Row 2  -->
+        <StackLayout
+            Grid.Row="1"
+            Padding="10"
+            BackgroundColor="LightBlue">
+            <Button
+                x:Name="homeBT"
+                BackgroundColor="Transparent"
+                HorizontalOptions="Start"
+                ImageSource="home30.png"
+                Text="Home" />
+            <Button
+                x:Name="stackBT"
+                BackgroundColor="Transparent"
+                HorizontalOptions="Start"
+                ImageSource="stack30.png"
+                Text="Stack" />
+            <!--  BackgroundColor="Transparent" คือทำให้มันโปร่งใส  -->
+            <Button
+                x:Name="gridBT"
+                BackgroundColor="Transparent"
+                HorizontalOptions="Start"
+                ImageSource="grid30.png"
+                Text="Grid" />
+            <Button
+                x:Name="tabBT"
+                BackgroundColor="Transparent"
+                HorizontalOptions="Start"
+                ImageSource="tab30.png"
+                Text="Tab" />
+            <Button
+                x:Name="youtubeBT"
+                BackgroundColor="Transparent"
+                HorizontalOptions="Start"
+                ImageSource="youtube30.png"
+                Text="Youtube" />
+            <Button
+                x:Name="profileBT"
+                BackgroundColor="Transparent"
+                HorizontalOptions="Start"
+                ImageSource="user30.png"
+                Text="Profile" />
+        </StackLayout>
+
+    </Grid>
+
+</ContentPage>

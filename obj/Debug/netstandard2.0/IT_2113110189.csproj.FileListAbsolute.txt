@@ -26,3 +26,6 @@ C:\Users\classroom\source\repos\2113110189\IT_2113110189\IT_2113110189\IT_211311
 C:\Users\classroom\source\repos\2113110189\IT_2113110189\IT_2113110189\IT_2113110189\obj\Debug\netstandard2.0\tabPage1.xaml.g.cs
 C:\Users\classroom\source\repos\2113110189\IT_2113110189\IT_2113110189\IT_2113110189\obj\Debug\netstandard2.0\tabPage2.xaml.g.cs
 C:\Users\classroom\source\repos\2113110189\IT_2113110189\IT_2113110189\IT_2113110189\obj\Debug\netstandard2.0\tabPage3.xaml.g.cs
+C:\Users\classroom\source\repos\2113110189\IT_2113110189\IT_2113110189\IT_2113110189\obj\Debug\netstandard2.0\MenuPage.xaml.g.cs
+C:\Users\classroom\source\repos\2113110189\IT_2113110189\IT_2113110189\IT_2113110189\obj\Debug\netstandard2.0\youtubePage.xaml.g.cs
+C:\Users\classroom\source\repos\2113110189\IT_2113110189\IT_2113110189\IT_2113110189\obj\Debug\netstandard2.0\ProfilePage.xaml.g.cs

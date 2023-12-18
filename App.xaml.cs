@@ -29,7 +29,14 @@ namespace IT_2113110189
             tp.Children.Add(new tabPage3());
 
 
-            MainPage = np;
+
+            //FlyoutPage
+            var fp = new FlyoutPage();
+            fp.Flyout = new MenuPage(); //ให้แสดงหน้าไหนเป็นหน้าสำหรับ flyout หรือหน้าตรง 3 ขีด
+            fp.Detail = new NavigationPage(new MainPage()); //หน้าแรกที่เข้ามา
+
+
+            MainPage = fp;
         }
 
         protected override void OnStart()
